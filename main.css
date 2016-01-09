@@ -1,0 +1,58 @@
+html { 
+	background-image:url("texture.jpg"); no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    h2{
+    	vertical-align: text-top;
+    }
+}
+
+
+body {
+	width:100%;
+	font-family: 'Slabo 27px', serif;
+	font: 1.1em 'Slabo 27px';
+	margin-bottom: 5%;
+}
+
+.date {
+	text-align: right;
+	font-weight: bold;
+	display: inline-block;
+	width: 30%;
+	margin-right: 0%;
+}
+
+#work {
+	border-bottom: 2px solid white;
+}
+
+#contact {
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+
+#non-contact{
+	margin-left: 21%;
+	margin-right: 15%;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+
+h4{
+	margin-bottom: 0px;
+	display: inline-block;
+	width: 60%;
+}
+
