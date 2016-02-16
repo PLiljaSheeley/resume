@@ -1,3 +1,9 @@
+html, body, h1, h2, h4, ul, li, p{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
 html { 
 	background-image:url("texture.jpg"); no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -14,8 +20,10 @@ html {
     h2{
     	vertical-align: text-top;
     }
+   .date{
+   	margin-left:20%;
+   }
 }
-
 
 body {
 	width:100%;
@@ -28,12 +36,6 @@ body {
 	text-align: right;
 	font-weight: bold;
 	display: inline-block;
-	width: 30%;
-	margin-right: 0%;
-}
-
-#work {
-	border-bottom: 2px solid white;
 }
 
 #contact {
@@ -41,18 +43,29 @@ body {
 	border-bottom: 2px solid white;
 }
 
-#non-contact{
+h2{
+	padding: .7em 0 .7em 0;
 	margin-left: 21%;
-	margin-right: 15%;
-}
-
-h2 {
-	margin-bottom: 0px;
+	text-decoration: underline;
 }
 
 h4{
-	margin-bottom: 0px;
+	margin-left:22%;
 	display: inline-block;
-	width: 60%;
+	width:48%;	
 }
 
+p{
+	padding: .7em 0 .7em 0;
+}
+
+li{
+	font-size: 1em;
+	padding: .4em 0 .4em 0;
+	margin-left: 3%;
+}
+
+ul{
+	list-style-type: none;
+	margin-left:21%;
+}
